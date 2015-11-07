@@ -1,4 +1,4 @@
-class Fftw < Formula
+class Fftw2 < Formula
   desc "legacy FFTW 2.1.5"
   homepage "http://www.fftw.org"
   url "http://www.fftw.org/fftw-2.1.5.tar.gz"
