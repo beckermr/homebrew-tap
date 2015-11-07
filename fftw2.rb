@@ -30,7 +30,7 @@ class Fftw2 < Formula
 
     # single precision
     # enable-sse2 and enable-avx works for both single and double precision
-    system "./configure", "--enable-single", "--enable-type-prefix", *(args + simd_args)
+    system "./configure", "--enable-float", "--enable-type-prefix", *(args + simd_args)
     system "make", "install"
 
     # clean up so we can compile the double precision variant
