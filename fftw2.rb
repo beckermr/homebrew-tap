@@ -2,6 +2,7 @@ class Fftw2 < Formula
   desc "legacy FFTW 2.1.5"
   homepage "http://www.fftw.org"
   url "http://www.fftw.org/fftw-2.1.5.tar.gz"
+  sha256 "f8057fae1c7df8b99116783ef3e94a6a44518d49c72e2e630c24b689c6022630"
   
   option "with-fortran", "Enable Fortran bindings"
   option :universal
