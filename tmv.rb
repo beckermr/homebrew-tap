@@ -7,7 +7,8 @@ class Tmv < Formula
   depends_on "scons"
   
   def install
-    system "scons", "install", "PREFIX=#{prefix}", "WITH_BLAS=false"
+    system "scons", "PREFIX=#{prefix}", "WITH_BLAS=false"
+    system "scons", "install"
   end
 end
   
